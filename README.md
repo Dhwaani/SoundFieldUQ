@@ -1,4 +1,4 @@
-# SoundFieldUQ
+ SoundFieldUQ
 
 **Certifying a reconstructed sound field: exact-ratio weighted conformal prediction, and knowing when to abstain.**
 
@@ -137,6 +137,4 @@ Thresholds were set with margin measured across independent seeds, not chosen to
 
 See [`CITATION.cff`](CITATION.cff). `+sfuq/+uq/` and `+sfuq/+geom/` are method-agnostic and reusable on any estimator emitting a point prediction; MIT licensed and meant to be lifted.
 
-## Licence
 
-MIT. Everything is synthetic and self-generated, so there are no dataset licences to inherit.
