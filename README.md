@@ -124,15 +124,6 @@ Thresholds were set with margin measured across independent seeds, not chosen to
 - Synthetic rooms only so far: rigid walls, frequency-independent absorption, no scattering. Measured-data validation is the next step.
 - Single frequency per experiment. Broadband coverage is harder because errors correlate across frequency.
 
-## Roadmap
-
-- [x] Exact-ratio weighted conformal; ESS accounting; abstention
-- [x] Certifiable-region maps; ESS-optimal and greedy placement
-- [ ] Measured data (MeshRIR S1-M3969, dEchorate)
-- [ ] Functional conformal bands over whole RIRs, with per-segment coverage
-- [ ] Band-wise coverage through the spatial-aliasing limit
-- [ ] Preprint + archived artifact (Zenodo DOI)
-
 ## Citing
 
 See [`CITATION.cff`](CITATION.cff). `+sfuq/+uq/` and `+sfuq/+geom/` are method-agnostic and reusable on any estimator emitting a point prediction; MIT licensed and meant to be lifted.
