@@ -1,4 +1,4 @@
- SoundFieldUQ
+ **SoundFieldUQ**
 
 **Certifying a reconstructed sound field: exact-ratio weighted conformal prediction, and knowing when to abstain.**
 
