@@ -84,7 +84,6 @@ SoundFieldUQ/
 ├── experiments/              exp01-exp08
 ├── tests/                    6 classes, incl. Monte Carlo guarantee checks
 ├── docs/                     math.md, protocol.md, expected_results.md
-└── paper/                    IEEE skeleton structured around the claim
 ```
 
 ## The experiments
