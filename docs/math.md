@@ -1,8 +1,7 @@
 # The mathematics
 
 Everything in the project reduces to four objects. This file states them
-precisely so the code can be read against the maths and a reviewer can check
-both.
+precisely so the code can be read against the maths. 
 
 ## 1. The Helmholtz kernel
 
