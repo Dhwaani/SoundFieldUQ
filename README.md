@@ -37,8 +37,6 @@ This repository works out what follows.
 
 **4. Beyond the calibration support, nothing restores validity — and that is the most useful result here.** When listener positions extend past the region the microphones cover, dQ/dP is genuinely infinite. Split conformal keeps issuing confident finite intervals and collapses to **0.283 coverage**. Weighted conformal returns an **infinite interval**: it abstains. It does not pretend a guarantee survives where no measurement constrains anything.
 
-> A method that tells you it cannot answer is safe to deploy. A method that answers confidently and wrongly is not. The abstention rate is a map of exactly which listener positions your microphone layout cannot certify — computable **before you measure anything**.
-
 **5. Placement follows as a corollary.** The weights are w = q/p and ESS is maximised when p = q, so the optimal calibration layout is a **sample from the query density itself**. Put the calibration microphones where the listeners are. Established placement criteria — posterior variance, mutual information, conditional entropy — optimise how much the model *learns*; that is the right objective for fitting a field and the wrong one for certifying it. All layouts are valid; they differ in cost, and the cost is invisible unless ESS is reported.
 
 ## Practical grounding
