@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: "SoundFieldUQ: certified sound-field reconstruction with exactly known covariate-shift weights"
+message: "If you use this code, please cite it."
+type: software
+authors:
+  - family-names: Chakraborty
+    given-names: Ashmita
+version: 0.2.0
+license: MIT
+repository-code: "https://github.com/YOUR-GITHUB-USERNAME/SoundFieldUQ"
+abstract: >-
+  Distribution-free uncertainty quantification for sparse sound-field
+  reconstruction. Because the calibration microphone positions and the listener
+  positions to be certified are both designed by the experimenter, the
+  covariate-shift likelihood ratio is exactly computable from geometry rather
+  than estimated. Weighted conformal prediction with that exact ratio restores
+  marginal validity where split conformal fails silently, abstains where no
+  measurement constrains the query point, and yields a distribution-free
+  microphone-placement criterion. Base MATLAB, no toolboxes, no hardware.
+keywords:
+  - sound field reconstruction
+  - conformal prediction
+  - covariate shift
+  - uncertainty quantification
+  - microphone placement
+  - room acoustics
+references:
+  - type: article
+    title: "Conformal Prediction Under Covariate Shift"
+    authors:
+      - family-names: Tibshirani
+        given-names: "Ryan J."
+      - family-names: Barber
+        given-names: "Rina Foygel"
+      - family-names: Candès
+        given-names: "Emmanuel J."
+      - family-names: Ramdas
+        given-names: Aaditya
+    year: 2019
+    notes: "arXiv:1904.06019 — the construction this project supplies exact weights for"
