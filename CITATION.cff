@@ -6,7 +6,7 @@ authors:
   - family-names: Chakraborty
     given-names: Ashmita
 version: 0.2.0
-license: MIT
+license: GNU General Public License v3.0
 repository-code: "https://github.com/YOUR-GITHUB-USERNAME/SoundFieldUQ"
 abstract: >-
   Distribution-free uncertainty quantification for sparse sound-field
